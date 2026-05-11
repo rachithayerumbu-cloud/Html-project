@@ -1,0 +1,43 @@
+* { box-sizing: border-box; }
+
+#add-book, #delete-book {
+    /* Changed from #28EAFF (Cyan) to a soft professional light blue */
+    background-color: #e0f2fe; 
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid #bae6fd;
+}
+
+nav ul {
+    /* Changed from #A13F3F (Red) to a Deep Navy Blue */
+    background-color: #1e3a8a;
+    padding: 1em;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.2em;
+}
+
+.section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+
+#home {
+    /* Changed from #A13F6A (Magenta) to a clean Royal Blue */
+    background-color: #2563eb;
+    color: white;
+}
+
+#about {
+    /* Changed from #A13F6A (Magenta) to a professional Slate Blue */
+    background-color: #334155;
+    color: white;
+}
